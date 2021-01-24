@@ -4,5 +4,5 @@ if [[ "$@" == *"--jpeg"* ]]; then
 	bash $DIR/installer/lib-jpeg.sh $DIR
 fi
 if [[ "$@" == *"--png"* ]]; then
-	bash $DIR/installer/lib-png.sh $
+	bash $DIR/installer/lib-png.sh $DIR
 fi
